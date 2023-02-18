@@ -8,3 +8,6 @@ def index(request):
     'age': 28
   }
   return render(request, 'index.html', context)
+
+def counter(request):
+  return render(request, 'counter.html')
